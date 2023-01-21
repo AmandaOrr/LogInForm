@@ -1,0 +1,95 @@
+
+/*font-family: 'Catamaran', sans-serif; placeholders and regualr text
+font-family: 'Source Sans Pro', sans-serif; titles and buttons*/
+
+
+
+
+    *{
+        box-sizing: border-box;
+    }
+   
+    
+
+    body{
+      background: linear-gradient(176deg, rgba(183,200,181,1) 19%, rgba(167,144,165,1) 55%, rgba(84,65,78,1) 97%);
+      background-position: center;
+      background-repeat: no-repeat; 
+      min-height: 100vh;      
+  }
+    
+    h1, .btn{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    input, label, a{
+        font-family: 'Catamaran', sans-serif;
+    }
+
+    a{
+        color: #54414e; 
+        font-weight: bold;
+        font-size: 110%;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: #b7c8b5;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .container{
+        height: 100%;
+    }
+
+    .containerThanks{
+        height: 50%;
+    }
+
+    #logInWelcome{
+        background-color: #a897a7;
+        border: 2px solid #524551;
+        box-shadow: 2px 20px 20px 4px rgba(102,89,102,0.83);
+    }
+
+    /* The message box is shown when the user clicks on the password field */
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    box-shadow: 2px 20px 20px 4px rgba(102,89,102,0.83);
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 12px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }
+
+   
+
